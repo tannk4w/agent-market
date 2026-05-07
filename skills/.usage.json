@@ -1,0 +1,93 @@
+{
+  "marketing-blog-article": {
+    "archived_at": null,
+    "created_at": "2026-05-06T01:40:33.910486+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-05-06T09:46:53.872869+00:00",
+    "last_used_at": "2026-05-06T07:51:57.168350+00:00",
+    "last_viewed_at": "2026-05-06T07:51:57.149275+00:00",
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 4,
+    "view_count": 4
+  },
+  "marketing-blog-publish": {
+    "archived_at": null,
+    "created_at": "2026-05-06T01:43:28.062824+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-05-06T10:08:15.272167+00:00",
+    "last_used_at": "2026-05-07T08:09:11.805189+00:00",
+    "last_viewed_at": "2026-05-07T08:09:11.800206+00:00",
+    "patch_count": 15,
+    "pinned": false,
+    "state": "active",
+    "use_count": 18,
+    "view_count": 17
+  },
+  "marketing-brainstorm": {
+    "archived_at": null,
+    "created_at": "2026-05-06T02:07:53.440731+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-05-06T06:26:04.043106+00:00",
+    "last_used_at": "2026-05-06T09:59:38.451104+00:00",
+    "last_viewed_at": "2026-05-06T09:59:38.446107+00:00",
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 11,
+    "view_count": 11
+  },
+  "marketing-image": {
+    "archived_at": null,
+    "created_at": "2026-05-06T09:41:12.105282+00:00",
+    "created_by": "agent",
+    "last_patched_at": null,
+    "last_used_at": "2026-05-07T08:05:34.896726+00:00",
+    "last_viewed_at": "2026-05-07T08:05:34.891992+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 5,
+    "view_count": 5
+  },
+  "marketing-orchestration": {
+    "archived_at": null,
+    "created_at": "2026-05-06T01:55:46.536432+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-05-06T09:43:32.802691+00:00",
+    "last_used_at": "2026-05-07T08:04:51.707201+00:00",
+    "last_viewed_at": "2026-05-07T08:04:51.702615+00:00",
+    "patch_count": 5,
+    "pinned": false,
+    "state": "active",
+    "use_count": 18,
+    "view_count": 18
+  },
+  "marketing-research": {
+    "archived_at": null,
+    "created_at": "2026-05-06T02:23:21.630488+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-05-07T08:04:54.576602+00:00",
+    "last_viewed_at": "2026-05-07T08:04:54.568595+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 4,
+    "view_count": 6
+  },
+  "nano-banana-thumbnail": {
+    "archived_at": null,
+    "created_at": "2026-05-06T07:13:14.048556+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-05-06T07:24:08.859973+00:00",
+    "last_used_at": "2026-05-06T10:11:40.513028+00:00",
+    "last_viewed_at": "2026-05-06T10:11:40.508592+00:00",
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 14,
+    "view_count": 13
+  }
+}
