@@ -1,0 +1,34 @@
+model:
+  provider: openrouter
+  default: anthropic/claude-sonnet-4
+
+agent:
+  max_turns: 90
+
+terminal:
+  backend: local
+  cwd: /workspace
+  timeout: 180
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  provider: built_in
+
+security:
+  redact_secrets: true
+
+approvals:
+  mode: manual
+
+compression:
+  enabled: true
+  threshold: 0.50
+  target_ratio: 0.20
+
+display:
+  tool_progress: true
+  show_cost: true
+
+# Tool availability is normally managed with `hermes tools`.
+# Keep this template secret-free and machine-portable.

@@ -1,0 +1,61 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+.hermes/.env
+**/.env
+**/.env.local
+**/.env.production
+
+# Hermes local config
+.hermes/config.yaml
+!.hermes/config.template.yaml
+
+# Hermes credentials / auth
+.hermes/auth.json
+.hermes/credentials.json
+.hermes/token*.json
+.hermes/**/*token*
+.hermes/**/*secret*
+.hermes/**/*credential*
+
+# Hermes runtime data
+.hermes/sessions/
+.hermes/logs/
+.hermes/cache/
+.hermes/tmp/
+.hermes/audio_cache/
+.hermes/backups/
+.hermes/checkpoints/
+.hermes/cron/
+.hermes/state.db*
+.hermes/gateway*.json
+.hermes/gateway*.pid
+.hermes/gateway*.lock
+.hermes/.hermes_history
+.hermes/.update_check
+.hermes/.skills_prompt_snapshot.json
+
+# Local memory / user profile
+.hermes/memories/MEMORY.md
+.hermes/memories/USER.md
+.hermes/memory/
+.hermes/user_profile*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Docker runtime
+/data/
+/logs/

@@ -1,0 +1,38 @@
+services:
+  hermes:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: agent-market-hermes:latest
+    container_name: agent-market-hermes
+    env_file:
+      - .env
+    environment:
+      HERMES_HOME: /home/hermes/.hermes
+    volumes:
+      - .:/workspace
+      - hermes_home:/home/hermes/.hermes
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+    command: ["hermes"]
+
+  gateway:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: agent-market-hermes:latest
+    container_name: agent-market-gateway
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      HERMES_HOME: /home/hermes/.hermes
+    volumes:
+      - .:/workspace
+      - hermes_home:/home/hermes/.hermes
+    working_dir: /workspace
+    command: ["hermes", "gateway", "run"]
+
+volumes:
+  hermes_home:
